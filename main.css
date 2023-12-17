@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(240, 37%, 75%);
+}
+/* header and navbar */
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: hsl(244, 86%, 46%);
+    color: hsl(244 86% 88%);
+    height: 2rem;
+    align-items: center;
+}
+[aria-current="page"]{
+    background-color: darkblue;
+}
+.navList{
+    list-style: none;
+    display: flex;
+}
+.navLink{
+    padding: .5rem .5rem;
+    margin-inline-end: .5rem;
+}
+.navItem a{
+    text-decoration: none;
+}
+.navItem a:link{
+    color: hsl(244 86% 88%);
+}
+.navItem a:visited{
+    color: hsl(244 86% 88%);
+}
+.head{
+    text-align: center;
+    background-color: hsl(244 86% 44%);
+    padding-bottom: 3rem;
+    color:hsl(244 86% 88%);;
+}
+.container{
+    min-height: 70dvh;
+    max-width: 90dvw;
+    margin: auto;
+}
+footer{
+    margin-top: 1rem;
+}
+
+/* events */
+.eventList{
+    list-style: none;
+}
+.eventItem{
+    padding: 1rem 0 0 1rem;
+}
+.eventTitle{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.eventContent>p{
+    margin-top: 1rem;
+}
+.eventContent img{
+    max-height: 15rem;
+    max-width: 20dvw;
+    text-align: justify;
+    font-weight: bold;
+}
+/* indivial event pages */
+.flexPicnic{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-flow: wrap;
+    flex-basis: 100%;
+}
+.flexPicnic>p{
+    max-width: 20dvw;
+    margin-right: 2rem;
+}
+
+/* home */
+
+.grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 25dvw 1fr 25dvw;
+    gap: .5rem;
+}
+.pressing{
+    text-align: center;
+}
+.pressing h2{
+    margin-bottom: 1rem;
+}
+.air{
+    margin: auto;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 99%;
+    width: 50%;
+}
+.status{
+    text-align: center;
+}
+.status p{
+margin: 1rem 0;
+}
+.meeting{
+    text-align: center;
+}
+.meeting p{
+    margin: 1rem 0;
+}
+.solar{
+    display: block;
+    margin: 2rem auto;
+}
+
+/* licence/contact */
+#submit{
+    border: none;
+    background-color: hsl(240, 93%, 22%);
+    color: hsl(240, 37%, 75%);
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
+.licence{
+    display: grid;
+    grid-template-columns: 25dvw 1fr 25dvw;
+    gap: .5rem;
+    margin-top: 1.5rem;
+}
+.dates{
+    font-size: 1.25rem;
+}
+.get h3{
+    text-align: center;
+}
+.getTitle{
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+.contact{
+    font-size: 1.25rem;
+}
+form p {
+    margin-top: 1.5rem;
+}
+
+/* about us */
+
+.club{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.club h3 {
+    margin-bottom: 1rem;
+}
+.repeater{
+    margin-top: 1rem;
+}
+.repeater h3 {
+    margin-bottom: 1rem;
+}
+.history{
+    margin-top: 1rem;
+}
+.history h3 {
+    margin-bottom: 1rem;
+}
+.officers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* media queries */
